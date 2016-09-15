@@ -8,7 +8,7 @@
 }
 
 .navigation-container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   height: 70px;
 }
@@ -69,10 +69,10 @@ div {
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 200px;
+  height: 220px;
   background-color: #C98F8F;
   text-align: center;
-  font-size: large;
+  font-size: 1em;
 }
 
 .image-head {
@@ -80,8 +80,37 @@ div {
   height: auto;
 }
 
+.catpage-header {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 90%;
+  height: auto;
+}
+
+.image-header {
+  width: auto;
+  height: 50%;
+  padding: .06%;
+  border-radius: 5em/5em;
+}
+
 section img {
   padding: 3%;
+}
+
+.article-profile-page {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.main-profile-page {
+  text-align: center;
+}
+
+.header-profile {
+  text-align: left;
 }
 
 /************************************/
@@ -107,6 +136,10 @@ aside img {
   width: 40%;
 }
 
+#top-cats img {
+  border-radius: 5em/5em;
+}
+
 
 /************************************/
 /* FOOTER */
@@ -117,11 +150,11 @@ footer {
 }
 
 footer div {
-  width: 30%;
+  width: 33%;
 }
 
 .footer-container {
-  width: 1300px;
+  width: 100%;
   margin: 0 auto;
   height: 170px;
 }
