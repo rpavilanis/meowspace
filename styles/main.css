@@ -41,12 +41,13 @@
   text-align: right;
 }
 
+/************************************/
+/* LINKS */
+/************************************/
+
 .navigation-bar li a:hover {
     background-color: #c98f8f;
 }
-/************************************/
-/* MAIN BODY SECTIONS */
-/************************************/
 
 a:hover {
     background-color: #c98f8f;
@@ -60,6 +61,10 @@ a:link {
   color: #000000;
   text-decoration: none;
 }
+
+/************************************/
+/* MAIN BODY SECTION - INDEX.HTML */
+/************************************/
 
 body {
   margin: 0;
@@ -78,6 +83,23 @@ div img {
   width: 22%;
 }
 
+.front-header {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #C98F8F;
+  font-size: 1em;
+}
+
+.post-content img {
+  width: 20%;
+  border-radius: 5em;
+}
+/************************************/
+/* MAIN BODY SECTION - ARTICLES */
+/************************************/
+
 .post-body {
   float: right;
   width: 92%;
@@ -93,25 +115,14 @@ div img {
   font-size: 1em;
 }
 
-.front-header {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 150px;
-  background-color: #C98F8F;
-  font-size: 1em;
-}
-
 .image-head {
   width: 100%;
   height: auto;
 }
 
-.catpage-header {
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
+/************************************/
+/* MAIN BODY SECTIONS - PROFILES */
+/************************************/
 
 .image-header {
   width: auto;
@@ -120,28 +131,34 @@ div img {
   border-radius: 5em/5em;
 }
 
+.catpage-header {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
 section img {
   padding: 5%;
   height: 200px;
 }
 
-.main-profile-page article {
+.profile-page-format article {
   display: inline-block;
   width: 30%;
   vertical-align: top;
 }
 
-.main-profile-page {
+.profile-page-format {
   text-align: center;
 }
 
-.header-profile {
+.profile-header {
   text-align: left;
 }
 
 
 /************************************/
-/* ASIDE INDEX.HTML */
+/* ASIDE IN INDEX.HTML */
 /************************************/
 
 aside {
@@ -150,8 +167,12 @@ aside {
   background-color: #c98f8f;
 }
 
+#top-cats img {
+  border-radius: 5em/5em;
+}
+
 /************************************/
-/* ASIDE CATS-PAJAMAS.HTML*/
+/* ASIDES IN ARTICLES*/
 /************************************/
 
 .aside-social {
@@ -163,11 +184,6 @@ aside img {
   height: auto;
   width: 40%;
 }
-
-#top-cats img {
-  border-radius: 5em/5em;
-}
-
 
 /************************************/
 /* FOOTER */
