@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+/************************************/
+/* NAVIGATION BAR AND HEADER SECTION */
+/************************************/
+
+.logo {
+  float: left;
+}
+
+.navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  background-color: #9BBEC4;
+  height: 70px;
+  width: 100%;
+  text-align:center;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+  float: right;
+}
+
+.navigation-bar li a {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+  text-align: right;
+}
+
+.navigation-bar li a:hover {
+    background-color: #FFB293;
+}
+/************************************/
+/* MAIN BODY SECTIONS */
+/************************************/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Shadows Into Light;
+}
+
+div {
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 65%;
+}
+
+.post-body {
+  float: right;
+  width: 92%;
+}
+
+.big-header {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #C98F8F;
+  text-align: center;
+  font-size: large;
+}
+
+.image-head {
+  width: 100%;
+  height: auto;
+}
+
+section img {
+  padding: 3%;
+}
+
+/************************************/
+/* ASIDE INDEX.HTML */
+/************************************/
+
+aside {
+  float: right;
+  width: 20%;
+}
+
+/************************************/
+/* ASIDE CATS-PAJAMAS.HTML*/
+/************************************/
+
+.aside-social {
+  float: left;
+  width: 8%;
+}
+
+aside img {
+  height: auto;
+  width: 40%;
+}
+
+
+/************************************/
+/* FOOTER */
+/************************************/
+
+footer {
+  clear: both;
+}
+
+footer div {
+  width: 30%;
+}
+
+.footer-container {
+  width: 1500px;
+  margin: 0 auto;
+  height: 150px;
+}

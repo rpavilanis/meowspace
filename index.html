@@ -2,12 +2,14 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <link href="styles/main.css" rel="stylesheet"/>
     <title>Meowspace</title>
   </head>
+
   <body>
-    <header>
-      <h1><a href="index.html"> Meowspace </a></h1>
-      <nav>
+    <header class="navigation-bar">
+      <h1 class="logo"><a href="index.html"> Meowspace </a></h1>
+      <nav class="navigation-container">
         <ul>
           <li><a href="#"> Login </a></li>
           <li><a href="#"> Signup </a> </li>
@@ -16,8 +18,11 @@
     </header>
 
     <main>
+
+
       <h1> Kitty Korner </h1>
       <h2> News for Cats </h2>
+      <div>
       <article>
         <h2> The Cat's Pajamas </h2>
         <h3> By: <a href="profiles/slyvester.html"> Slyvester </a></h3>
@@ -119,7 +124,7 @@
             </p>
           </section>
         </article>
-      </article>
+      </div>
       <aside id="top-cats">
         <h2> Top Cats </h2>
         <section>
@@ -132,7 +137,6 @@
           <img src="http://placekitten.com/100/100" alt="profile photo">
           <p>Member since <time  datetime="2010-01-04T16:31:24+02:00" title="">January 4th 2010</time> with <a href="#comments">495 comments</a> </p>
         </section>
-      </aside>
       <section>
         <h3> Marcy </h3>
         <img src="http://placekitten.com/100/100" alt="profile photo">
@@ -140,15 +144,21 @@
       </section>
     </aside>
     </main>
-      <footer>
-        <h4> &copy; 2016 </h4>
+      <footer class="navigation-bar footer-container">
+        <div>
+          <h4> &copy; 2016 </h4>
+        </div>
+        <div>
         <p id="disclaimer"> Meowspace is not responsible for, and expressly disclaims all liability for, damages of any kind arising out of use, reference to, or reliance on any information contained within the site. While the information contained within the site is periodically updated, no guarantee is given that the information provided in this Web site is correct, complete, and up-to-date. </p>
+        </div>
+        <div>
         <nav>
           <ul>
             <li><a href="#about"> About </a></li>
             <li><a href="#contact"> Contact </a> </li>
           </ul>
         </nav>
+        </div>
       </footer>
   </body>
 </html>
